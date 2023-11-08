@@ -1,7 +1,7 @@
 import React, {  useState } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-function Header() {
+function Form() {
 
   const[Email,setEmail]=useState('')
   const[Password,setPassword]=useState('')
@@ -61,4 +61,4 @@ const emailpattern=/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]{2,}$/;
   )
 }
 
-export default Header
+export default Form
